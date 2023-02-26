@@ -1,0 +1,79 @@
+.container-fluid{
+    width:max;
+    hgth:max;
+}
+.div1{
+    width:max;
+    higth:max;
+    background-color: aquamarine;
+}
+.self1{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+
+}
+.first_name{
+    color:rgb(255, 115, 0);
+    animation-direction:alternate;
+    animation-duration:1000ms;
+    animation-iteration-count:infinite;
+    animation-name:blink;
+}
+@keyframes blink{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
+.middle_name{
+    color:white;
+    animation-direction:alternate;
+    animation-duration:1000ms;
+    animation-iteration-count:infinite;
+    animation-name:blink;
+}
+@keyframes blink{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
+.last_name{
+    color: green;
+    animation-direction:alternate;
+    animation-duration:1000ms;
+    animation-iteration-count:infinite;
+    animation-name:blink;
+}
+@keyframes blink{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
+.para1{
+    font-size: 100px;
+    color: blue;
+    animation-duration: 1000ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-name:blink;
+    position:absolute;
+    left:230px;
+    animation-delay:300ms;
+}
+@keyframes blink {
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}

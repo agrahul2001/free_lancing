@@ -1,0 +1,38 @@
+#maindiv{
+    height:700px;
+    width:500px;
+    background-color: grey;
+    margin-left: 50px;
+    margin-top: -10px;
+    
+}
+#logo{
+    width: 500px;
+    height: 140px;
+    background-color: blue;
+}
+
+#logodiv{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(255, 0, 179);
+    float:left;
+
+
+}
+#companydiv{
+
+    width: 500px;
+    height:40px;
+    background-color: red;
+}
+#companydiv ul {
+    margin-top: 2px;
+}
+#companydiv ul li{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+   
