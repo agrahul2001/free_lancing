@@ -1,14 +1,14 @@
 body{
     text-align: center;
-    background-color: rgba(191, 243, 226, 0.918);
+    background-color:#EEEEEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#8B9A46;
 }
 .cloud_img{
     margin-top: 5% ;
-    width: 100px;
-    height: 100px;
-    margin-left: 400px;
-   margin-top:10x;
+    width: 80px;
+    height: 50px;
+    margin-top:10x;
     }
 .cloud_img2{
     width: 100px;
@@ -37,7 +37,7 @@ h1{
     right: 0;
 }
 .classic{
-    color:blue;
+    color:#73777B;
     animation-direction:alternate;
     animation-duration:1500ms;
     animation-iteration-count:infinite;
@@ -50,4 +50,47 @@ h1{
     to{
         opacity:0;
     }
-   
+}
+.cloud{
+    position:absolute;
+    top:300px;
+    color:#73777B;
+    animation-direction:alternate;
+    animation-duration:4000ms;
+    animation-iteration-count:infinite;
+    animation-name:bl;
+}
+@keyframes bl{
+    from{
+        opacity:0.5;
+    }
+    to{
+        opacity:1;
+    } 
+}
+.btn{
+    color:#8758FF;
+    text-decoration:dashed;
+}
+.footer-link{
+    color: #8758FF;
+    text-decoration: dashed;
+}
+.cloud1{
+    position:absolute;
+    top:260px;
+    left:700px;
+    color:#73777B;
+    animation-direction:alternate;
+    animation-duration:4000ms;
+    animation-iteration-count:infinite;
+    animation-name:bl;
+}
+@keyframes bl{
+    from{
+        opacity:0.5;
+    }
+    to{
+        opacity:1;
+    } 
+}
